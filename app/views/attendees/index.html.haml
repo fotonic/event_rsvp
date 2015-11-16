@@ -19,7 +19,7 @@
           -# %td= link_to 'Edit', edit_attendee_path(attendee)
           -# %td= link_to 'Destroy', attendee, :method => :delete, :data => { :confirm => 'Are you sure?' }
   %br
-  %p.small *Email addresses are restricted to administrators for privacy
+  %p.small *Email addresses are only visible to administrators for privacy
 
   = link_to 'RSVP', new_attendee_path
-  = link_to 'Home', main_index_path
+  = link_to 'Home', root_path
