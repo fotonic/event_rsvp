@@ -17,7 +17,7 @@
           %td= attendee.last_name
           -# %td= link_to 'Show', attendee
           -# %td= link_to 'Edit', edit_attendee_path(attendee)
-          -# %td= link_to 'Destroy', attendee, :method => :delete, :data => { :confirm => 'Are you sure?' }
+          %td= link_to 'Destroy', attendee, :method => :delete
   %br
   %p.small *Email addresses are only visible to administrators for privacy
 
