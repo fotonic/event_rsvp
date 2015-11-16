@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 ruby '2.2.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
+gem 'rails_12factor', '~> 0.0.3'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -24,6 +25,7 @@ gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'haml-rails', '~> 0.9.0'
 gem 'bootstrap', '~> 4.0.0.alpha1'
 gem 'autoprefixer-rails', '~> 6.1'
+
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'
