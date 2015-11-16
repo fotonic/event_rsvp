@@ -9,4 +9,5 @@
     = @attendee.email
 
   = link_to 'Edit', edit_attendee_path(@attendee)
+  = link_to 'Delete', @attendee, :method => :delete
   = link_to 'Home', root_path
