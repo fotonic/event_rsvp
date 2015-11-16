@@ -1,0 +1,25 @@
+.container.vertical-center
+  %h1 Attendees
+
+  %table.center-table
+    %thead
+      %tr
+        %th First Name
+        %th Last Name
+        %th
+        %th
+        %th
+
+    %tbody
+      - @attendees.each do |attendee|
+        %tr
+          %td= attendee.first_name
+          %td= attendee.last_name
+          -# %td= link_to 'Show', attendee
+          -# %td= link_to 'Edit', edit_attendee_path(attendee)
+          -# %td= link_to 'Destroy', attendee, :method => :delete, :data => { :confirm => 'Are you sure?' }
+  %br
+  %p.small *Email addresses are restricted to administrators for privacy
+
+  = link_to 'RSVP', new_attendee_path
+  = link_to 'Home', main_index_path

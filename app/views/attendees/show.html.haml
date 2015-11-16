@@ -1,0 +1,12 @@
+.container.vertical-center
+  %p#notice= notice
+
+  %p
+    %b Name:
+    = @attendee.first_name + " " + @attendee.last_name
+  %p
+    %b Email:
+    = @attendee.email
+
+  = link_to 'Edit', edit_attendee_path(@attendee)
+  = link_to 'Home', main_index_path
