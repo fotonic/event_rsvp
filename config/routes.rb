@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root 'main#index'
-  get 'attendees/new' => "rsvp"
+  get 'attendees/new', as: "new"
 
   resources :attendees
   # The priority is based upon order of creation: first created -> highest priority.
