@@ -207,7 +207,7 @@ DEPENDENCIES
   haml-rails (~> 0.9.0)
   jbuilder (~> 2.0)
   jquery-rails
-  pg
+  pg (~> 0.18.3)
   pry (~> 0.10.3)
   puma
   rails (= 4.2.3)
