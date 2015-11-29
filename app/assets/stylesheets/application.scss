@@ -14,32 +14,6 @@
  // *= require_self
 *
 
-@import "bootstrap"
+@import 'bootstrap';
+@import 'buttons';
 
-body
-  background: #DD5B47
-
-.center-table
-  margin: 0 auto !important
-  float: none !important
-
-table td, th
-  text-align: center
-
-table
-  min-width: 320px
-
-td
-  padding: 0 10px
-
-.vertical-center
-  min-height: 100%
-  min-height: 100vh
-  display: flex
-  align-items: center
-  justify-content: center
-  flex-direction: column
-  display: -webkit-flex
-  -webkit-justify-content: center
-  -webkit-align-items: center
-  text-align: center
