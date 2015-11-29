@@ -1,6 +1,13 @@
-.container.vertical-center
-	.div.center
-		%h1 RSVP
-		%p A Sample RSVP Application
-		%p= link_to 'RSVP', new_attendee_path
-		%p= link_to 'Guest List', attendees_path
+.container.cover.vertical-center
+  .col-xs-12
+    .row
+      .col-xs-12
+        %h1 You're Invited
+      .row
+      	.col-xs-6
+      		%h1 RSVP
+      		%p A Sample RSVP Application
+      		%button= link_to 'RSVP', new_attendee_path
+      		%button= link_to 'Guest List', attendees_path
+          
+
