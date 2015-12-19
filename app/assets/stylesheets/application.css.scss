@@ -9,7 +9,9 @@
  * compiled file so the styles you add here take precedence over styles defined in any styles
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
- *
+ // require bootstrap
+ // require leaflet
+ // require angular-material
  // *= require_tree .
  // *= require_self
 */
@@ -51,4 +53,12 @@ td {
   -webkit-justify-content: center;
   -webkit-align-items: center;
   text-align: center;
+}
+
+.md-button.md-fab {
+  line-height: 5.6rem;
+  min-width: 0;
+  width: 5.6rem;
+  height: 5.6rem;
+  border-radius: 50%;
 }

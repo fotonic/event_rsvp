@@ -25,10 +25,16 @@ gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'haml-rails', '~> 0.9.0'
 gem 'bootstrap', '~> 4.0.0.alpha1'
 gem 'autoprefixer-rails', '~> 6.1'
+gem 'angularjs-rails'
+
 
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'
+  gem 'rails-assets-bootstrap'
+  gem 'rails-assets-angular'
+  gem 'rails-assets-leaflet'
+  gem 'rails-assets-angular-material', '~> 0.9.8'
 end
 
 
